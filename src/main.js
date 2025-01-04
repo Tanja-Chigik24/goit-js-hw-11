@@ -4,9 +4,9 @@ import 'izitoast/dist/css/iziToast.min.css';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-import { createGalleryItemMarkup } from './render-functions.js';
-import { fetchPhotosByQuery } from './pixabay-api.js';
-import { PER_PAGE } from './pixabay-api.js';
+import { createGalleryItemMarkup } from './js/render-functions.js';
+import { fetchPhotosByQuery } from './js/pixabay-api.js';
+import { PER_PAGE } from './js/pixabay-api.js';
 
 const galleryEl = document.querySelector('.js-gallery');
 const searchFormEl = document.querySelector('.js-search-form');
